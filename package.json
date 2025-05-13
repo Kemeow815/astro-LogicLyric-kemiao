@@ -6,7 +6,8 @@
     "dev": "dotenv -e .env -- astro dev",
     "build": "dotenv -e .env -- astro build",
     "preview": "dotenv -e .env -- astro preview",
-    "astro": "dotenv -e .env -- astro"
+    "astro": "dotenv -e .env -- astro",
+    "start": "dotenv -e .env -- astro build && dotenv -e .env -- astro preview"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.2.5",
@@ -15,6 +16,7 @@
     "@types/prismjs": "^1.26.5",
     "astro": "^5.7.5",
     "katex": "^0.16.22",
+    "node-fetch": "^3.3.2",
     "prismjs": "^1.30.0",
     "rehype-katex": "^7.0.1",
     "remark-math": "^5.1.1",
