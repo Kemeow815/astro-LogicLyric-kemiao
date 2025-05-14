@@ -3,11 +3,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const projects = [
   {
-    name: "LogicLyric",
-    desc: "一个基于Astro的简洁好看好用的博客模板",
+    name: "astro-LogicLyric-kemiao",
+    desc: "一个基于Astro的LogicLyric主题的二改的博客",
     tech: ["Astro", "Tailwind", "TypeScript", "Vite"],
-    github: "https://github.com/MareSera/LogicLyric",
-    demo: "https://logiclyric.maresera.top/"
+    github: "https://github.com/Kemeow815/astro-LogicLyric-kemiao",
+    demo: "https://me.kemiao.site/"
   },
   {
     name: "克喵分享",
@@ -16,12 +16,40 @@ const projects = [
     github: "https://github.com/Kemeow815/kemiaofx",
     demo: "https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505132119079.png"
   },
+  {
+    name: "克喵音乐播放器",
+    desc: "基于 Heo Music 的音乐播放器",
+    tech: ["Music", "Heomusic", "Website"],
+    github: "https://github.com/Kemeow815/HeoMusic",
+    demo: "https://music.kemiao.online"
+  },
+  {
+    name: "克喵的博客",
+    desc: "基于nuxt的全栈博客",
+    tech: ["Blog", "Website", "Nuxt"],
+    github: "https://github.com/Kemeow815/blog-v3",
+    demo: "https://blog-v3.kemeow.top"
+  },
+  {
+    name: "克喵的今日热榜",
+    desc: "一个稳定的二改热榜页面",
+    tech: ["Website", "News"],
+    github: "https://github.com/Kemeow815/kemiao-news",
+    demo: "https://news.kemiao.online"
+  },
+  {
+    name: "克喵的主页",
+    desc: "一个基于nuxt的主页",
+    tech: ["Website", "Homepage"],
+    github: "https://github.com/Kemeow815/blog-homepage-v5",
+    demo: "https://www.kemiao.online"
+  }
 ];
 ---
 
 <BaseLayout title="项目作品">
   <main class="max-w-6xl mx-auto px-4 py-12">
-    <h1 class="text-4xl font-serif mb-12 text-center">🚀 项目作品</h1>
+    <h1 class="text-4xl font-serif mb-12 text-center">🚀 我的项目</h1>
     
     <div class="grid md:grid-cols-2 gap-8">
       {projects.map(project => (
