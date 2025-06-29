@@ -1,5 +1,5 @@
 ---
-title: "Markdowm 段落语法"  # 文章标题
+title: "Markdown 段落语法"  # 文章标题
 pubDate: 2025-02-13      # 发布时间（Date格式）
 updatedDate: 2025-06-28    # 更新时间（可选）
 tags:                       # 标签数组
